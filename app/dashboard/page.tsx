@@ -111,7 +111,7 @@ export default function DashboardPage() {
               <Shield className="h-6 w-6" />
             </div>
             <div>
-              <h1 className="text-lg font-semibold">NoCard 2Pay</h1>
+              <h1 className="text-lg font-semibold">IziPay</h1>
               <p className="text-sm text-pink-100">{userEmail}</p>
             </div>
           </div>
@@ -159,7 +159,7 @@ export default function DashboardPage() {
             <CardContent className="p-6">
               <div className="flex justify-between items-start mb-8">
                 <div>
-                  <p className="text-pink-100 text-sm">NoCard 2Pay</p>
+                  <p className="text-pink-100 text-sm">IziPay</p>
                   <p className="text-xs text-pink-200">Pagamento Contactless Seguro</p>
                 </div>
                 <div className="text-right">
