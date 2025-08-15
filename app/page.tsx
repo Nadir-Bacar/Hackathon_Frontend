@@ -30,7 +30,7 @@ export default function LandingPage() {
         <div className="text-center space-y-12 max-w-4xl mx-auto">
           <div className="space-y-6">
 <h2 className="text-6xl font-black italic font-dmserif text-white leading-tight mt-15">
-  IziPay
+  Quick Quick
   <br />
   {/* <span className="text-pink-200">Millenium Bim</span> */}
 </h2>

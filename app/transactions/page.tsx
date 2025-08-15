@@ -251,10 +251,10 @@ export default function TransactionsPage() {
 
       <div className="p-4 space-y-4">
         {/* Summary Cards */}
-        <div className="grid grid-cols-3 gap-4">
+        {/* <div className="grid grid-cols-3 gap-4">
           <Card>
             <CardContent className="p-4 text-center">
-              <p className="text-2xl font-bold text-green-600">{formatCurrency(getTotalSpent())}</p>
+              <p className="text-l font-bold text-green-600">{formatCurrency(getTotalSpent())}</p>
               <p className="text-sm text-gray-600">Total Gasto</p>
             </CardContent>
           </Card>
@@ -272,10 +272,10 @@ export default function TransactionsPage() {
               <p className="text-sm text-gray-600">Aprovadas</p>
             </CardContent>
           </Card>
-        </div>
+        </div> */}
 
         {/* Search and Filter */}
-        <Card>
+        {/* <Card>
           <CardContent className="p-4 space-y-4">
             <div className="relative">
               <Search className="absolute left-3 top-1/2 transform -translate-y-1/2 h-4 w-4 text-gray-400" />
@@ -337,7 +337,7 @@ export default function TransactionsPage() {
               </Button>
             </div>
           </CardContent>
-        </Card>
+        </Card> */}
 
         {/* Transactions List */}
         <div className="space-y-3">

@@ -21,7 +21,7 @@ interface SignupData {
 }
 
 export default function SignupPage() {
-  const [currentStep, setCurrentStep] = useState(1)
+  const [currentStep, setCurrentStep] = useState(4)
   const [isLoading, setIsLoading] = useState(false)
   const [error, setError] = useState("")
   const [signupData, setSignupData] = useState<SignupData>({
@@ -337,7 +337,7 @@ export default function SignupPage() {
             </div>
             <div className="w-6"></div>
           </div>
-          <CardTitle className="text-2xl font-bold text-gray-900">IziPay</CardTitle>
+          <CardTitle className="text-2xl font-bold text-gray-900">Quick Quick</CardTitle>
           <CardDescription className="text-gray-600">
             Passo {currentStep} de {totalSteps}
           </CardDescription>

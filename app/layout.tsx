@@ -6,9 +6,9 @@ import "./globals.css"
 import { ErrorBoundary } from "@/components/error-boundary"
 
 export const metadata: Metadata = {
-  title: "NoCard 2Pay - Pagamento Contactless Seguro",
-  description: "Sistema de pagamento contactless seguro com autenticação biométrica",
-  generator: "NoCard 2Pay",
+  title: "Quick Quick",
+  // description: "Sistema de pagamento contactless seguro com autenticação biométrica",
+  generator: "Quick Quick",
 }
 
 export default function RootLayout({
